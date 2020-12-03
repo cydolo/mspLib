@@ -12,7 +12,7 @@
 > *the most powerful and best library for moviestarplanet.*   
 > *with msplib you can easily create tools or other things for moviestarplanet.*   
 
-
+ 
 # Installation
 
 Use [Nuget](https://www.nuget.org/profiles/cydolo) to install the [mspLib](https://msplib.cbkdz.eu/installation). 
