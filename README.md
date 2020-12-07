@@ -26,21 +26,24 @@ Install-Package Dolo.msplib
 
 ```cs
 MspClient mspClient = new MspClient(new MspClientConfig {
-  	KeepAlive = true,
-  	Server = Server.Germany
-  	// Server = "Germany".ToType<Server>()
+	KeepAlive = true,
+	Server = Server.Germany
+	// Server = "Germany".ToType<Server>()
 });
 
 Login mspLogin = await mspClient.LoginAsync("Username", "Password");
 
 if (!mspLogin.LoggedIn) {
-   	Console.WriteLine("Error > {0}", mspLogin.Status);
-   	return;
+	Console.WriteLine("Error > {0}", mspLogin.Status);
+	return;
 }
 
 ActorImage Img = await mspLogin.Actor.GetActorImageAsync();
 
-Console.WriteLine("Hello {0}\n\nStarCoins {1}\n\nImage {3}", mspLogin.Actor.Username, mspLogin.Actor.StarCoins.ToString("N0"), Img.AvatarUrl);
+Console.WriteLine("Hello {0}\n\n" + "StarCoins {1}\n\n" + "Image {3}", 
+                  mspLogin.Actor.Username, 
+                  mspLogin.Actor.StarCoins.ToString("N0"), 
+                  Img.AvatarUrl);
 ```
 
 for more examples [click here](https://github.com/cydolo/mspLib/tree/master/msp)
