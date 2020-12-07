@@ -5,6 +5,7 @@
 - **ADDED** `~` *New Extension `ToType<T>` to convert a string to the enum*
 - **CHANGED** `~` *Renamed `MspClientOption` to `MspClientConfig`*
 - **CHANGED** `~` *Renamed all Methods for a better view*
+- **CHANGED** `~` *We are no longer support the CreateAccount method*
 - **FIXED** `~` *Checksum for valid Request*
 - **FIXED** `~` *Many bug fixes and improvements*
 
