@@ -1,3 +1,13 @@
+##### 7.0.0
+
+- **ADDED** `~` *MspClient has 4 new Events `OnCommandError`, `OnLoggedIn`, `OnMessageSent`, `OnMessageReceived`*
+- **ADDED** `~` *Some new methods for MovieStarPlanet*
+- **ADDED** `~` *New Extension `ToType<T>` to convert a string to the enum*
+- **CHANGED** `~` *Renamed `MspClientOption` to `MspClientConfig`*
+- **CHANGED** `~` *Renamed all Methods for a better view*
+- **FIXED** `~` *Checksum for valid Request*
+- **FIXED** `~` *Many bug fixes and improvements*
+
 ##### 6.7.0.1
 
 - Fixed authentication in CreateAccount method
