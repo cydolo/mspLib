@@ -1,13 +1,13 @@
 ##### 7.0.0
 
-- **ADDED** `~` *MspClient has 4 new Events `OnCommandError`, `OnLoggedIn`, `OnMessageSent`, `OnMessageReceived`*
-- **ADDED** `~` *Some new methods for MovieStarPlanet*
-- **ADDED** `~` *New Extension `ToType<T>` to convert a string to the enum*
-- **CHANGED** `~` *Renamed `MspClientOption` to `MspClientConfig`*
-- **CHANGED** `~` *Renamed all Methods for a better view*
-- **CHANGED** `~` *We are no longer support the CreateAccount method*
-- **FIXED** `~` *Checksum for valid Request*
-- **FIXED** `~` *Many bug fixes and improvements*
+- Added 4 new Events `OnCommandError`, `OnLoggedIn`, `OnMessageSent`, `OnMessageReceived`
+- Added new Methods for MovieStarPlanet
+- Added new Extension `ToType<T>` to convert a string to the enum
+- Renamed `MspClientOption` to `MspClientConfig`
+- Renamed all Methods for a better view
+- We no longer support the CreateAccount method
+- Fixed CheckSum for MovieStarPlanet
+- Many bug fixes and improvements
 
 ##### 6.7.0.1
 
