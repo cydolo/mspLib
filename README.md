@@ -25,15 +25,22 @@ Install-Package Dolo.msplib
 > A Simple way to login with KeepAlive.
 
 ```cs
-var mspClient = new MspClient(new MspClientOption
-{
-    Server = Server.Germany,
-    KeepAlive = true
+MspClient mspClient = new MspClient(new MspClientConfig {
+  	KeepAlive = true,
+  	Server = Server.Germany
+  	// Server = "Germany".ToType<Server>()
 });
 
-var mspLogin = await mspClient.Login("Username", "Password");
+Login mspLogin = await mspClient.LoginAsync("Username", "Password");
 
-Console.WriteLine(mspLogin.LoggedIn ? mspLogin.Actor.StarCoins.ToString() : mspLogin.Status);
+if (!mspLogin.LoggedIn) {
+   	Console.WriteLine("Error > {0}", mspLogin.Status);
+   	return;
+}
+
+ActorImage Img = await mspLogin.Actor.GetActorImageAsync();
+
+Console.WriteLine("Hello {0}\n\nStarCoins {1}\n\nImage {3}", mspLogin.Actor.Username, mspLogin.Actor.StarCoins.ToString("N0"), Img.AvatarUrl);
 ```
 
 for more examples [click here](https://github.com/cydolo/mspLib/tree/master/msp)
