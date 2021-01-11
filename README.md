@@ -40,10 +40,10 @@ if (!mspLogin.LoggedIn) {
 
 ActorImage Img = await mspLogin.Actor.GetActorImageAsync();
 
-Console.WriteLine("Hello {0}\n\nStarCoins {1}\n\nImage {3}", 
-                  mspLogin.Actor.Username, 
-                  mspLogin.Actor.StarCoins.ToString("N0"), 
-                  Img.AvatarUrl);
+Console.WriteLine(
+        $"Hello {mspLogin.Actor.Username}\n\n" +
+        $"StarCoins {mspLogin.Actor.StarCoins:N0}\n\n" +
+        $"Image {Img.AvatarUrl}");
 ```
 
 for more examples [click here](https://github.com/cydolo/mspLib/tree/master/msp)
