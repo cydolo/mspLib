@@ -46,7 +46,7 @@ Console.WriteLine(
         $"Image {Img.AvatarUrl}");
 ```
 
-for more examples [click here](https://github.com/cydolo/mspLib/tree/master/msp)
+for more examples [click here](https://github.com/cydolo/mspLib/tree/master/msp) or [click here](https://github.com/Lypt0x/mspLibExample)
 
 # Documentation
 
