@@ -2,7 +2,6 @@
 ![msplib](https://files.catbox.moe/lq201t.jpg)
 
 
-[![Discord Server](https://img.shields.io/discord/708318629112053841?color=darkcyan&label=Discord&logo=Discord&logoColor=white&style=flat-square)](https://discord.gg/dolo) 
 [![Nuget](https://img.shields.io/nuget/v/Dolo.msplib?logo=nuget&style=flat-square)](https://www.nuget.org/packages/Dolo.msplib/)
 
 ![Info](https://placehold.it/15/F09B9D/000000?text=+) `This is a library for developing MovieStarPlanet tools. and no hack or cheat.`   
@@ -52,7 +51,7 @@ for more examples [click here](https://github.com/cydolo/mspLib/tree/master/msp)
 
 documentation coming soon.
  
-for any help join our [discord server](https://discord.gg/dolo) or [create a new issue](https://github.com/cydolo/mspLib/issues)
+for any help [create a new issue](https://github.com/cydolo/mspLib/issues)
 
 # Changelog
 
