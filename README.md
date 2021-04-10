@@ -1,8 +1,8 @@
-![Info](https://placehold.it/15/F09B9D/000000?text=+) `This is a library for developing MovieStarPlanet tools. and no hack or cheat.`   
-![Info](https://placehold.it/15/F09B9D/000000?text=+) `We do not offer ready-made programs.`    
-![Info](https://placehold.it/15/F09B9D/000000?text=+) `Learn the basics of c#.`  
+## PlanetAI
 
-> A .NET 5.0 Library for the Game MovieStarPlanet.  
-> Bufferly was developed with this library. 
- 
-coming soon
+A MovieStarPlanet and MovieStarReloaded client.   
+A little insight into MovieStarReloaded
+
+![msp](https://pbs.twimg.com/media/EyZcfMyW8AAy0XP?format=jpg&name=large)
+![msp](https://pbs.twimg.com/media/EycS2RMXMAYOeZG?format=jpg&name=large)
+![msp](https://pbs.twimg.com/media/EyeqlEnXMAU3dzL?format=jpg&name=large)
