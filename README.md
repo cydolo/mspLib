@@ -1,4 +1,7 @@
 ## PlanetAI
+
+  <a href="https://github.com/cydolo/PlanetAI/projects/1">View the progress</a>
+
 <img src="https://files.catbox.moe/714hln.jpg" width="756" />
 
 <p float="left">
